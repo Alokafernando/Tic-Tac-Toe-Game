@@ -1,7 +1,5 @@
 package com.assignment.tictactoe.service;
 
-import javax.swing.text.Position;
-
 public interface Board {
     BoardUi getBoardUi();
     void intializeBoard();
