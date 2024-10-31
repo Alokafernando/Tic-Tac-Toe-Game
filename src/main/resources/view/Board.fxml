@@ -132,9 +132,9 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <ImageView fitHeight="184.0" fitWidth="209.0" layoutX="83.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="259.0" fitWidth="360.0" layoutX="57.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Users/user/Downloads/WhatsApp_Image_2024-10-30_at_08.40.55_d3d77c71-removebg-preview.png" />
+            <Image url="@../images/img.png" />
          </image>
       </ImageView>
    </children>
