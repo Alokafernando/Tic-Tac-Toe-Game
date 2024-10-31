@@ -75,7 +75,7 @@ public class BoardController implements BoardUi {
         String buttonId = "btn" + col + row;
         for (Node node : mainGrid.getChildren()) {
             if (node instanceof Button button && buttonId.equals(node.getId())) {
-                button.setStyle("-fx-background-color:  #045D5D; -fx-background-radius: 25; -fx-border-radius: 25; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.3, 0, 4);\n");
+                button.setStyle("-fx-background-color:   #4cc9f0; -fx-background-radius: 25; -fx-border-radius: 25; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.3, 0, 4);\n");
                 if (piece == Piece.X) {
                     button.setStyle("-fx-border-color: #3867d6; -fx-background-radius: 25; -fx-border-radius: 25; -fx-text-fill: #3867d6; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.3, 0, 4);\n");
                     button.setText("X");
